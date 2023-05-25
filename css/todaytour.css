@@ -1,0 +1,57 @@
+/*about today*/
+.about_today{
+    width: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_today .text{
+    width: 50%;
+}
+
+
+.about_today .img{
+    width: 50%;
+}
+
+.tour_table table{
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 50px;
+    
+    
+}
+
+.tour_table table th,td{
+   padding: 10px;
+}
+
+
+@media(max-width:1240px){
+   .about_today{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   }
+
+   .about_today .text{
+    margin-bottom: 40px;
+    width: 100%;
+   }
+
+   .about_today .text ul {
+    list-style-type: none;
+   }
+
+   .about_today .img{
+    width: 100%;
+   }
+}
+
+@media(max-width:688px){
+    .about_today .img{
+     display: none;
+    }
+ }
